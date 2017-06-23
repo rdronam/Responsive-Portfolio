@@ -282,6 +282,26 @@ input[type=submit] {
 	}
 
 @media only screen and (max-width: 640px) {
-	
+  #container{
+    margin-bottom: 20px;
+    position: static;
+  }
+
+  }
+  #name1{
+    width: 100%;
+  }
+  nav{
+    margin: 15px 0;
+    text-align: center;
+    width: 100%;
+  }
+}
+
+  nav a {
+    width: 30%;
+    margin-left: 0;
+    padding-left: 0;
+}
 }
 
