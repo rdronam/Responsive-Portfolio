@@ -1,52 +1,221 @@
-<!doctype html>
-<html lang="en-us">
+<!DOCTYPE html>
+<html class="no-js" lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <title>About | Rahul Dronamraju</title>
-	<link rel="stylesheet" type="text/css" href="Assets/css/reset.css">
-  	<link rel="stylesheet" type="text/css" href="Assets/css/style.css">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Portfolio</title>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
 </head>
 
 <body>
-
-  <header>
-    <div class="container">
-      <a href="index.html" id="name1">Rahul Dronamraju</a>
-      <nav>
-        <a href="index.html">About</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
-      </nav>
+    <div id="mobile-menu-open" class="shadow-large">
+        <i class="fa fa-bars" aria-hidden="true"></i>
     </div>
-  </header>
+    <!-- End #mobile-menu-toggle -->
+    <header>
+        <div id="mobile-menu-close">
+            <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
+        </div>
+        <ul id="menu" class="shadow">
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#education">Education</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#skills">Skills</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+    </header>
+    <!-- End header -->
 
-  <div id="main-container" class="container">
-    <section class="main-section">
-      <h1>Rahul Dronamraju</h1>
+    <div id="lead">
+        <div id="lead-content">
+            <h1>Rahul Dronamraju</h1>
+            <h2>FullStack Web Developer</h2>
+            <a href="images/Resume.pdf" download="Resume.pdf" class="btn-rounded-white">Download Resume</a>
+        </div>
+        <!-- End #lead-content -->
 
-      <img src="Assets/images/01bc972.jpg" class="auth-image" alt="R">
+        <div id="lead-overlay"></div>
 
-      <p>Graduate with a BBA in Supply Chain Management with broad and deep education and knowledge. Certified in Energy Supply Chain with excellent knowledge of energy industry and project management. Seeking opportunities in business, supply chain, or coding.</p>
-
-    </section>
-
-    <section class="sidebar">
-      <div id="connect">
-        <h2>Connect with Me</h2>
-
-        <a href="#"><img src="Assets/images/1498084100_github_square_black.png" class="social" alt="GitHub" /></a>
-        <a href="#"><img src="Assets/images/1498084372_linkedin_square_color.png" class="social" alt="LinkedIn" /></a>
-        <a href="#"><img src="Assets/images/1498084530_overflow.png" class="social" alt="Stack Overflow" /></a>
-      </div>
-    </section>
-  </div>
-
-  <footer>
-    <div class="container">
-      Copyright &copy; 2016 Rahul Dronamraju 
+        <div id="lead-down">
+            <span>
+                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            </span>
+        </div>
+        <!-- End #lead-down -->
     </div>
-  </footer>
+    <!-- End #lead -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h2 class="heading">About Me</h2>
+                </div>
+                <div class="col-md-8">
+                    <p>
+                        Graduate with a BBA in Supply Chain Management with broad and deep education and knowledge. Certified in Energy Supply Chain with excellent knowledge of energy industry and project management. Seeking opportunities in business, supply chain, or coding.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End #about -->
+
+    <div id="education">
+        <h2 class="heading">Education</h2>
+        <div class="education-block">
+            <h3>UT Austin Coding Bootcamp</h3>
+            <span class="education-date">June 2017 - December 2017</span>
+            <h4>FullStack Web Development</h4>
+            <p>
+            An intensive bootcamp dedicated to designing and building web applications.
+            </p>
+        </div>
+        <!-- End .education-block -->
+
+    <div id="projects" class="background-alt">
+        <h2 class="heading">Projects</h2>
+        <div class="container">
+            <div class="row">
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/project.jpg" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>See You There</h3>
+                        <p>
+                            Whether you are meeting a far away friend or connecting with a client for lunch, SeeYouThere helps you find the halfway point. No more extra driving, lost time, or wasted gas. Simply enter the addresses and this app will give you a list of ideal meeting points, driving directions, and local reviews so you can choose the perfect place.
+                        </p>
+                        <a href="https://github.com/rdronam/SeeYouThere-MapTest">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/project.jpg" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Friend Finder</h3>
+                        <p>
+                            This full-stack site will take in results from your users' surveys, then compare their answers with those from other users. The app will then display the name and picture of the user with the best overall match.
+                        </p>
+                        <a href="https://github.com/rdronam/FriendFinder">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/project.jpg" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>React App</h3>
+                        <p>
+                           A React-based rendition of the New York Times Article Search application using nodejs, express, and MongoDB.
+                        </p>
+                        <a href="https://github.com/rdronam/ReactApp">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/project.jpg" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>TopSpin</h3>
+                        <p>
+                            A white label tennis management application. This Application will allow a tennis player to enter one’s match information via a mobile device or laptop and it will correctly update one’s existing record as well as determine a player’s total, calculated using total wins and total games won. The app also includes a tournament aspect, which will allow the user to create tournaments and create the respective matches based on the information inputted.                             
+
+                        </p>
+                        <a href="https://github.com/rdronam/TennisApp/">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End #projects -->
+
+    <div id="skills">
+        <h2 class="heading">Skills</h2>
+        <ul>
+            <li>html<css>
+            <li>css<li>
+            <li>JavaScript</li>
+            <li>jQuery<li>
+            <li>SQL<li>
+            <li>MongoDB<li>
+            <li>Node.js</li>
+            <li>React</li>
+            <li>Blockchain<li>
+        </ul>
+    </div>
+    <!-- End #skills -->
+
+    <div id="contact">
+        <h2>Get in Touch</h2>
+        <div id="contact-form">
+            <form method="POST" action="https://www.google.com/rahul18.dronamraju@gmail.com">
+                <input type="hidden" name="_subject" value="Contact request from personal website" />
+                <input type="email" name="_replyto" placeholder="Your email" required>
+                <textarea name="message" placeholder="Your message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+        <!-- End #contact-form -->
+    </div>
+    <!-- End #contact -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-2 top">
+                    <span id="to-top">
+                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                    </span>
+                </div>
+                <div class="col-sm-5 social">
+                    <ul>
+                        <li>
+                            <a href="https://github.com/rdronam/" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://stackoverflow.com/users/8105513/rahul-dronamraju" target="_blank"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End footer -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/scripts.min.js"></script>
 </body>
 
 </html>
